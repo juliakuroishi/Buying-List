@@ -1,1 +1,1 @@
-alert("OI")
+alert('Olá, bem vindo :)');
