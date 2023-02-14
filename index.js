@@ -1,1 +1,1 @@
-alert('Olá, bem vindo :)');
+alert('Hello, we are still working on this page :)');
