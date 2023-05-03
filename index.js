@@ -1,17 +1,16 @@
 //alert('Hello, we are still working on this page :)');
 
-function adcItem(){
-    var item = document.getElementById('idinput').value
-    console.log(item)
+function adcItem() {
+    var inputValue = document.getElementById('idinput').value
+    var textNode = document.createTextNode(inputValue);
 
-    var novoElem  = document.createElement('li');
-    texto = document.createTextNode(item);
-    novoElem.appendChild(texto);
-    console.log(novoElem);
-    const body = document.body;
-    body.appendChild(novoElem);
+    var newListItem = document.createElement('li');
+    newListItem.appendChild(textNode);
+
+    var orderedList = document.getElementById("itemsList");
+    orderedList.appendChild(newListItem);
 };
 
-function deleteItem(){
+function deleteItem() {
 
 };
